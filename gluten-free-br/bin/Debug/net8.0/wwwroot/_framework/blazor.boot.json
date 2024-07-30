@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "gluten-free-br",
   "resources": {
-    "hash": "sha256-cptjRFTkEeuR7sHTjCldxgeb+Btn/mFEUEFO5YowUKU=",
+    "hash": "sha256-g3p4potIO8G6k+ijLaDZTBxkwCOewpKSuq3fCVGO+Nw=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.u5q4n600r4.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -212,10 +212,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "gluten-free-br.wasm": "sha256-DbkON8bp5T1Dk8dZS+55jfwh9QSu8zIMY+2SIM5Tzl0="
+      "gluten-free-br.wasm": "sha256-Bs0agl0J5yn2+467jqy178Q3SyPxYStKmqWueEzRHzg="
     },
     "pdb": {
-      "gluten-free-br.pdb": "sha256-1ouIMLfxPZ75voo+qW/SZEnD34JBIbBWkAoJ1Hv7UrM="
+      "gluten-free-br.pdb": "sha256-J/GEkRq69VLWRxo0s51NqS3MTOjHT0SFLHCJAC32LKY="
     }
   },
   "cacheBootResources": true,

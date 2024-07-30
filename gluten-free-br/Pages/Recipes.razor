@@ -1,5 +1,6 @@
-﻿@page "/Recipes"
-@inject HttpClient Http
+﻿@page "/recipes"
+@using gluten_free_br.Interfaces
+@inject IRecipesService RecipeService
 @inject NavigationManager Navigation
 
 <PageTitle>Receitas</PageTitle>
@@ -17,27 +18,24 @@ else
         <p>Nome: @recipe.Name</p>
         <p>Descritivo: @recipe.Text</p>
         <button class="btn btn-primary" @onclick="() => GoToRecipe(recipe.Id)">Selecionar Receita</button>
-        <br/>
+        <br />
     }
 }
 
 @code {
     private Recipe[]? recipes;
 
-    protected override async Task OnInitializedAsync()
+     protected override async Task OnInitializedAsync()
     {
         try
         {
-            string url = "http://localhost:5125/Recipe/v1";
-            recipes = await Http.GetFromJsonAsync<Recipe[]>(url);
-            StateHasChanged();
+            recipes = await RecipeService.GetRecipesAsync();
         }
         catch (Exception ex)
         {
-            Console.Write(ex.Message);
+            Console.WriteLine($"Error: {ex.Message}");
         }
     }
-
     private void GoToRecipe(int id)
     {
         Navigation.NavigateTo($"/recipe/{id}");

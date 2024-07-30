@@ -1,7 +1,7 @@
 ﻿@page "/recipe/{RecipeId:int}"
-@inject HttpClient Http
+@using gluten_free_br.Interfaces
+@inject IRecipesService RecipeService
 @inject NavigationManager Navigation
-@using System.Net.Http.Json
 
 <PageTitle>Recipe</PageTitle>
 
@@ -28,9 +28,11 @@ else
     {
         try
         {
-            string url = $"http://localhost:5125/Recipe/v1/{RecipeId}";
-            recipe = await Http.GetFromJsonAsync<Recipe>(url);
-            StateHasChanged();
+            //para produção
+            recipe = await RecipeService.GetRecipesByIdAsync(RecipeId);
+
+            //para desenvolvimento
+            //recipe = await MockRecipesService.GetRecipesByIdAsync(RecipeId);
         }
         catch (Exception ex)
         {
