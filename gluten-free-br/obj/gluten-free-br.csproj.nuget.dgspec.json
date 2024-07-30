@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/thales/Dev/Front-end/gluten-free-br/gluten-free-br.csproj": {}
+    "/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/gluten-free-br.csproj": {}
   },
   "projects": {
-    "/home/thales/Dev/Front-end/gluten-free-br/gluten-free-br.csproj": {
+    "/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/gluten-free-br.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/thales/Dev/Front-end/gluten-free-br/gluten-free-br.csproj",
+        "projectUniqueName": "/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/gluten-free-br.csproj",
         "projectName": "gluten-free-br",
-        "projectPath": "/home/thales/Dev/Front-end/gluten-free-br/gluten-free-br.csproj",
+        "projectPath": "/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/gluten-free-br.csproj",
         "packagesPath": "/home/thales/.nuget/packages/",
-        "outputPath": "/home/thales/Dev/Front-end/gluten-free-br/obj/",
+        "outputPath": "/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/thales/.nuget/NuGet/NuGet.Config"
@@ -51,6 +51,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
