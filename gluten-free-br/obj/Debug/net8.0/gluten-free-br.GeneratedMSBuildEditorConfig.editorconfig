@@ -26,12 +26,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/Pages/RecipeDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjaXBlRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/thales/Dev/Front-end/gluten-free-br-front-end/gluten-free-br/Pages/Recipes.razor]
