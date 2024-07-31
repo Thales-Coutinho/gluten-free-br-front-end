@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gluten-free-br")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba177e8d9dfc910a278053551a65742988d6c797")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9248ec5505d51c937c1df933c0bc102f520b9707")]
 [assembly: System.Reflection.AssemblyProductAttribute("gluten-free-br")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gluten-free-br")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

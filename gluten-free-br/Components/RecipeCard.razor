@@ -1,0 +1,16 @@
+@inject NavigationManager Navigation
+
+<p>Nome: @recipe.Name</p>
+<p>Descritivo: @recipe.Text</p>
+<button class="btn btn-primary" @onclick="() => GoToRecipe(recipe.Id)">Selecionar Receita</button>
+<br />
+
+
+@code {
+    [Parameter]
+    public Recipe? recipe { get; set; }
+    private void GoToRecipe(int id)
+    {
+        Navigation.NavigateTo($"/recipe/{id}");
+    }
+}

@@ -1,13 +1,12 @@
 ﻿@page "/recipe/{RecipeId:int}"
-@using gluten_free_br.Interfaces
-@inject IRecipesService RecipeService
+@inject IRecipesService IRecipeService
 @inject NavigationManager Navigation
 
 <PageTitle>Recipe</PageTitle>
 
 @if (recipe == null)
 {
-    <p><em>Carregando...</em></p>
+    <Loading/>
 }
 else
 {
@@ -28,11 +27,7 @@ else
     {
         try
         {
-            //para produção
-            recipe = await RecipeService.GetRecipesByIdAsync(RecipeId);
-
-            //para desenvolvimento
-            //recipe = await MockRecipesService.GetRecipesByIdAsync(RecipeId);
+            recipe = await IRecipeService.GetRecipesByIdAsync(RecipeId);
         }
         catch (Exception ex)
         {

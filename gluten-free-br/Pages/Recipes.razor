@@ -1,7 +1,5 @@
 ﻿@page "/recipes"
-@using gluten_free_br.Interfaces
-@inject IRecipesService RecipeService
-@inject NavigationManager Navigation
+@inject IRecipesService IRecipeService
 
 <PageTitle>Receitas</PageTitle>
 
@@ -9,16 +7,13 @@
 
 @if (recipes == null)
 {
-    <p><em>Carregando...</em></p>
+    <Loading/>
 }
 else
 {
     @foreach (var recipe in recipes)
     {
-        <p>Nome: @recipe.Name</p>
-        <p>Descritivo: @recipe.Text</p>
-        <button class="btn btn-primary" @onclick="() => GoToRecipe(recipe.Id)">Selecionar Receita</button>
-        <br />
+        <RecipeCard recipe="recipe"/>
     }
 }
 
@@ -29,15 +24,11 @@ else
     {
         try
         {
-            recipes = await RecipeService.GetRecipesAsync();
+            recipes = await IRecipeService.GetRecipesAsync();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
         }
-    }
-    private void GoToRecipe(int id)
-    {
-        Navigation.NavigateTo($"/recipe/{id}");
     }
 }
