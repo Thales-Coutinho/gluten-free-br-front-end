@@ -1,7 +1,8 @@
 @inject NavigationManager Navigation
 
 <p>Nome: @recipe.Name</p>
-<p>Descritivo: @recipe.Text</p>
+<p>Descritivo: @recipe.Text.Substring(0, 125)...</p>
+<img src="ImageMock.jpg" alt="image mock" style="width:200px;height:200px;">
 <button class="btn btn-primary" @onclick="() => GoToRecipe(recipe.Id)">Selecionar Receita</button>
 <br />
 
