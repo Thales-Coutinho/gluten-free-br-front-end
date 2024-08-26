@@ -1,3 +1,58 @@
-h1{
-    background-color: green;
+.background-container {
+    background-image: url('capa.svg');
+    
+    /* Faz com que a imagem cubra toda a tela */
+    background-size: cover;
+    
+    /* Centraliza a imagem */
+    background-position: center;
+    
+    /* Faz com que a imagem permaneça fixa ao rolar a página */
+    background-attachment: fixed;
+
+    /* Configura para ocupar todo o viewport */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Evita que outros conteúdos sobreponham o fundo */
+    z-index: -1;
+}
+
+.image_design{
+    height: 127px;
+    width: 127px;
+    margin-left: 155px;
+    margin-top: 15px;
+}
+
+.logo-home{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 36px;
+    color: #008080;
+}
+
+.sub-titulo{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+}
+
+.informativo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-titulo h2{
+    color: #F9AD66;
 }
