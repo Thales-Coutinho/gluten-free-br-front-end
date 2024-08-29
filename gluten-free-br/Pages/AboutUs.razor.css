@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topo {
+    text-align: left;
+    color: #008080;
+    margin: 30px;
+  }
+  
+  .primeiro-card {
+    display: flex;
+    justify-content: space-between;
+    /* Distribui espaço igual entre os filhos */
+    align-items: center;
+    /* Alinha os filhos verticalmente no centro */
+    padding: 10px;
+    /* Espaçamento opcional ao redor dos filhos */
+    background-color: #f9b666;
+    /* border: 5px solid black; */
+    margin: 30px;
+    height: 500px;
+  }
+  
+  .card-filho {
+    float: left;
+    background-color: #fff8dc;
+    /* border: 2px solid red; */
+    margin: 10px;
+    font-size: large;
+    padding: 80px;
+    width: 50%;
+    /* Ou outra largura adequada, dependendo do seu design */
+    text-align: left;
+    /* Centraliza o texto dentro do bloco */
+  }
+  
+  .card-filho-img {
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    width: 60%;
+    /* Ou outra largura adequada, dependendo do seu design */
+  }
+  
+  .coluna {
+    background-color: #fff8dc;
+    float: left;
+    padding: 10px;
+    /* border: 2px solid green; */
+    margin: 10px;
+    padding: 50px;
+    width: 100%;
+    /* Ou outra largura adequada, dependendo do seu design */
+    text-align: center;
+    /* Centraliza o texto dentro do bloco */
+    font-size: larger;
+  }
+  
+  .segundo-card {
+    display: flex;
+    align-items: center;
+    /* Alinha os filhos verticalmente no centro */
+    padding: 10px;
+    /* Espaçamento opcional ao redor dos filhos */
+    background-color: #f9b666;
+    /* border: 5px solid black; */
+    margin: 30px;
+    height: 40%;
+  }
