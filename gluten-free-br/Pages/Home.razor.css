@@ -1,5 +1,5 @@
 .background-container {
-    background-image: url('capa.svg');
+    background-image: url('capa.svg') !important;
     
     /* Faz com que a imagem cubra toda a tela */
     background-size: cover;
@@ -29,6 +29,7 @@
 }
 
 .logo-home{
+    margin-top: 50px;
     display: flex;
     gap: 3px;
     align-items: center;
@@ -48,6 +49,7 @@
 }
 
 .informativo{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
