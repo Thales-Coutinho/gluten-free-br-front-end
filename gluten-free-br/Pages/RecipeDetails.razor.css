@@ -1,3 +1,18 @@
 h1{
-    background-color: green;
+    text-align: center;
+    color: #008080;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    gap: 10px; /* Espaço entre os itens */
+    padding: 10px; /* Espaço interno da div */
+    background-color: #FFCF96; /* Cor de fundo da div */
+    min-height: 1000px;
+}
+.text{
+    background-color: #caae3d;
+    padding-left: 50px;
+    padding-right: 10px;
 }

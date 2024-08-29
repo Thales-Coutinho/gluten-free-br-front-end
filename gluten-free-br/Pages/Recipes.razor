@@ -5,24 +5,25 @@
 
 <h1>Receitas</h1>
 
-<p> este é um paragrafo</p>
-
 @if (recipes == null)
 {
-    <Loading/>
+    <Loading />
 }
 else
 {
+    <div class="container">
     @foreach (var recipe in recipes)
-    {
-        <RecipeCard recipe="recipe"/>
-    }
+        {
+            <RecipeCard recipe="recipe" />
+        }
+
+    </div>
 }
 
 @code {
     private Recipe[]? recipes;
 
-     protected override async Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
         try
         {

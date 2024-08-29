@@ -1,3 +1,11 @@
 h1{
-    background-color: green;
+    text-align: center;
+    color: #008080;
+}
+.container{
+    background-color: #F9B666;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre os itens */
+    padding: 10px;
 }
