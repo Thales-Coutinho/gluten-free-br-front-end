@@ -1,0 +1,29 @@
+
+
+h1{
+    color:#008080; ;
+    margin-left: 3%;
+}
+
+.container-maior{
+    display:flex;
+    background-color: #f9b666;
+    width: 1382px;
+    height: 882px;
+    margin-bottom: 1%;
+    margin-right: -50%;
+}
+
+.card{
+    background-color: #fff8dc;
+    width: 629px;
+    height: 631px;
+    margin-top: 5%;
+    margin-left: -18%;
+}
+
+.subtitulo{
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 4%;
+}
