@@ -5,7 +5,7 @@
     align-items: center; /* Alinha os itens verticalmente no centro */
     gap: 10px; /* Espaço entre os itens */
     padding: 10px; /* Espaço interno da div */
-    background-color: #f0f0f0; /* Cor de fundo da div */
+    background-color: #F9B666; /* Cor de fundo da div */
     width:500px;
 }
 p{

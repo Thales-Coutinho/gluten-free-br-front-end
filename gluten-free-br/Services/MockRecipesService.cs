@@ -22,11 +22,11 @@ namespace gluten_free_br.Services
                         Modo de preparo: 
                         Bater os ovos no liquidificador por 5 minutos. Acrescentar o óleo, o açúcar, o milho e o coco e triturar bem. Desligar o liquidificador e acrescentar o creme de arroz e o fermento apenas pulsando. Assar em forma untada e enfarinhada (farinha de arroz), em forno a 180 graus. 
                         Pode misturar na massa uma colher de sobremesa de semente de erva doce. Não bater para não triturar as sementes.",
-                Image = "ImageMock.jpg"
+                Image = "BoloCaipiraMock.png"
                 },
             new Recipe {
                 Id = 2,
-                Name = "Biscoito de castanha-do-pará",
+                Name = "Bala de amêndoas",
                 Text = @"Ingredientes:
                         1 e 1/2 xícara de farinha de arroz 
                         4 colheres de sopa de farinha de castanha-do-pará 
@@ -45,7 +45,7 @@ namespace gluten_free_br.Services
                         Adicionar os ingredientes secos nessa mistura e amassar manualmente até completa homogeneização
                         Modelar os biscoitos manualmente em formato de cookie.
                         Assar em forno preaquecido a 180 °C por 10 minutos ou até dourar",
-                Image= "ImageMock.jpg"
+                Image= "BalaAmendoasMock.png"
                 },
             new Recipe {
                 Id = 3,
@@ -68,7 +68,7 @@ namespace gluten_free_br.Services
                         Você pode substituir as cenouras por batata doce,
                         batata normal, mandioca, mandioquinha. Fica uma
                         delícia. Experimente!",
-                Image= "ImageMock.jpg"
+                Image= "ChipCenouraMock.png"
                 },
             new Recipe {
                 Id = 4,
@@ -85,7 +85,7 @@ namespace gluten_free_br.Services
                         4 ovos batidos ½ xícara (chá) de farinha de arroz 2 colheres (sopa) de parmesão 1 colher (chá) de fermento químico em pó (para bolo) 
                         Misture todos os ingredientes e coloque em um pirex untado e polvilhado. 
                         Espalhe queijo parmesão ralado por cima e leve ao forno até dourar levemente.",
-                Image= "ImageMock.jpg"
+                Image= "TortaAbobrinhaMock.png"
                 }
 
         };
