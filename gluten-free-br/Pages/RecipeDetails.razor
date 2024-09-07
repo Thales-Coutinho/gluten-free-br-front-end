@@ -14,9 +14,9 @@ else
     <div class="container">
         <img src=@recipe.Image alt="image" style="width:500px;height:500px;">
         <div class="text">
+            @((MarkupString)recipe.Text)
 
         </div>
-        <p>@recipe.Text</p>
     </div>
 }
 
